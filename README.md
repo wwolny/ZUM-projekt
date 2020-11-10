@@ -59,55 +59,57 @@ W pojedynczym wektorze danych można wyróżnić 3 kategorie atrybutów:
 
 Dane rozkład częstotliwościowy we wszystkich danych:
 
-|1|back.|2203|
-|2|buffer_overflow.|30|
-|3|ftp_write.|8|
-|4|guess_passwd.|53|
-|5|imap.|12|
-|6|ipsweep.|12481|
-|7|land.|21|
-|8|loadmodule.|9|
-|9|multihop.|7|
-|10|neptune.|1072017|
-|11|nmap.|2316|
-|12|normal.|972781|
-|13|perl.|3|
-|14|phf.|4|
-|15|pod.|264|
-|16|portsweep.|10413|
-|17|rootkit.|10|
-|18|satan.|15892|
-|19|smurf.|2807886|
-|20|spy.|2|
-|21|teardrop.|979|
-|22|warezclient.|1020|
-|23|warezmaster.|20|
+| 1  | back.            | 2203    |
+|----|------------------|---------|
+| 2  | buffer_overflow. | 30      |
+| 3  | ftp_write.       | 8       |
+| 4  | guess_passwd.    | 53      |
+| 5  | imap.            | 12      |
+| 6  | ipsweep.         | 12481   |
+| 7  | land.            | 21      |
+| 8  | loadmodule.      | 9       |
+| 9  | multihop.        | 7       |
+| 10 | neptune.         | 1072017 |
+| 11 | nmap.            | 2316    |
+| 12 | normal.          | 972781  |
+| 13 | perl.            | 3       |
+| 14 | phf.             | 4       |
+| 15 | pod.             | 264     |
+| 16 | portsweep.       | 10413   |
+| 17 | rootkit.         | 10      |
+| 18 | satan.           | 15892   |
+| 19 | smurf.           | 2807886 |
+| 20 | spy.             | 2       |
+| 21 | teardrop.        | 979     |
+| 22 | warezclient.     | 1020    |
+| 23 | warezmaster.     | 20      |
 
 Dane rozkład częstotliwościowy w zbiorze posiadającym 10% danych:
 
-|1|back.|2203|
-|2|buffer_overflow.|30|
-|3|ftp_write.|8|
-|4|guess_passwd.|53|
-|5|imap.|12|
-|6|ipsweep.|1247|
-|7|land.|21|
-|8|loadmodule.|9|
-|9|multihop.|7|
-|10|neptune.|107201|
-|11|nmap.|231|
-|12|normal.|97278|
-|13|perl.|3|
-|14|phf.|4|
-|15|pod.|264|
-|16|portsweep.|1040|
-|17|rootkit.|10|
-|18|satan.|1589|
-|19|smurf.|280790|
-|20|spy.|2|
-|21|teardrop.|979|
-|22|warezclient.|1020|
-|23|warezmaster.|20|
+| 1  | back.            | 2203   |
+|----|------------------|--------|
+| 2  | buffer_overflow. | 30     |
+| 3  | ftp_write.       | 8      |
+| 4  | guess_passwd.    | 53     |
+| 5  | imap.            | 12     |
+| 6  | ipsweep.         | 1247   |
+| 7  | land.            | 21     |
+| 8  | loadmodule.      | 9      |
+| 9  | multihop.        | 7      |
+| 10 | neptune.         | 107201 |
+| 11 | nmap.            | 231    |
+| 12 | normal.          | 97278  |
+| 13 | perl.            | 3      |
+| 14 | phf.             | 4      |
+| 15 | pod.             | 264    |
+| 16 | portsweep.       | 1040   |
+| 17 | rootkit.         | 10     |
+| 18 | satan.           | 1589   |
+| 19 | smurf.           | 280790 |
+| 20 | spy.             | 2      |
+| 21 | teardrop.        | 979    |
+| 22 | warezclient.     | 1020   |
+| 23 | warezmaster.     | 20     |
 
 
 ### Opis algorytmów, które będą wykorzystywane do badań
