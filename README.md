@@ -59,8 +59,9 @@ W pojedynczym wektorze danych można wyróżnić 3 kategorie atrybutów:
 
 Dane rozkład częstotliwościowy we wszystkich danych:
 
-| 1  | back.            | 2203    |
+| id | typ ruchu sieci  | freq    |
 |----|------------------|---------|
+| 1  | back.            | 2203    |
 | 2  | buffer_overflow. | 30      |
 | 3  | ftp_write.       | 8       |
 | 4  | guess_passwd.    | 53      |
@@ -86,8 +87,9 @@ Dane rozkład częstotliwościowy we wszystkich danych:
 
 Dane rozkład częstotliwościowy w zbiorze posiadającym 10% danych:
 
-| 1  | back.            | 2203   |
+| id | typ ruchu sieci  | freq   |
 |----|------------------|--------|
+| 1  | back.            | 2203   |
 | 2  | buffer_overflow. | 30     |
 | 3  | ftp_write.       | 8      |
 | 4  | guess_passwd.    | 53     |
