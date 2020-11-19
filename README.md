@@ -122,6 +122,7 @@ Dane rozkład częstotliwościowy w zbiorze posiadającym 10% danych:
 + Druga kategoria nienadzorowanych danych:
   + KNN - algorytm centroidalny
   + DBSCAN - algorytm gęstościowy
+  + SVM - algorytm jednoklasowy
 
 ### Parametry algorytmów, których wpływ na wyniki będzie badany
 + Las losowy:
@@ -138,6 +139,8 @@ Dane rozkład częstotliwościowy w zbiorze posiadającym 10% danych:
   + epsilon - wielkość okolicy, którą uznajemy za sąsiedztwo
   + minPts - minimalna ilość punktów do uznania okolicy za grupę
   + borderPoints - czy bierzemy pod uwagę punkty graniczne
++ SVM:
+  + gamma - jak daleko sięga wpływ jednego przykładu treningu
 
 ### Miary oceny oparte o tablice pomyłek:
 + Precyzja precision
